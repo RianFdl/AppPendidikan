@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lamp"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="About Us!"
+        android:textStyle="bold"
+        android:textColor="#F9FFFF"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Ruangguru adalah platform pendidikan berbasis teknologi terbesar di Indonesia yang menyediakan layanan pembelajaran daring untuk siswa dari berbagai jenjang pendidikan. Dengan berbagai fitur seperti video pembelajaran interaktif, latihan soal, dan bimbingan belajar online, Ruangguru bertujuan untuk mendukung siswa dalam meningkatkan pemahaman dan prestasi akademik. Selain itu, Ruangguru juga menghadirkan program pelatihan untuk pengembangan keterampilan profesional, menjadikannya solusi lengkap untuk kebutuhan pendidikan di era digital."
+        android:textColor="#F9FFFF"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+</LinearLayout>

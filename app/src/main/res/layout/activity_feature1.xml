@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temukan Beasiswa Menarik yang Harus Kamu Coba!"
+            android:textColor="#2262BC"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="20dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EAF6FF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BEASISWA FULLY FUNDED"
+                    android:textColor="#2262BC"
+                    android:textStyle="bold"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• MEXT Scholarship\n• Fulbright Scholarship\n• Chevening Scholarship\n• Global Korea Scholarship\n• Turkiye Burslari Scholarship\n• Australia Awards Scholarship"
+                    android:textColor="#000000"
+                    android:lineSpacingExtra="4dp" />
+
+                <Button
+                    android:id="@+id/btnFullyFunded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cek jadwal di sini"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#FF9800"
+                    android:layout_marginTop="16dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EAF6FF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BEASISWA GA WAJIB TOEFL / IELTS"
+                    android:textColor="#2262BC"
+                    android:textStyle="bold"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Turkiye Burslari Scholarship (Jenjang S1, S2, S3)\n• Romanian Government Scholarship (Jenjang S1, S2, S3)\n• Russian Government Scholarship (Jenjang S1, S2, S3)\n• MEXT Scholarship (Jenjang D2, D3, S1)\n• Chevening Scholarship (Jenjang S2)"
+                    android:textColor="#000000"
+                    android:lineSpacingExtra="4dp" />
+
+                <Button
+                    android:id="@+id/btnNoToefl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cek jadwal di sini"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#FF9800"
+                    android:layout_marginTop="16dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EAF6FF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BEASISWA TANPA HARUS KEMBALI KE NEGARA ASAL"
+                    android:textColor="#2262BC"
+                    android:textStyle="bold"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Stanford University Knight-Hennessy Scholars Program\n• University of Toronto Lester B. Pearson Scholarship\n• NUS ASEAN Undergraduate Scholarship\n• Chinese Government Scholarship\n• Turkiye Burslari Scholarship"
+                    android:textColor="#000000"
+                    android:lineSpacingExtra="4dp" />
+
+                <Button
+                    android:id="@+id/beasiswa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cek jadwal di sini"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#FF9800"
+                    android:layout_marginTop="16dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
